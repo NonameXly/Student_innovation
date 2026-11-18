@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8edf5;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#f0f2f5;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#eef3f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f0eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2b5f9e;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#4a90d9;stop-opacity:0.04" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4891c;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#e8a838;stop-opacity:0.03" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="15%" cy="25%" r="35%">
+      <stop offset="0%" style="stop-color:#2b5f9e;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#2b5f9e;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="75%" r="30%">
+      <stop offset="0%" style="stop-color:#d4891c;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#d4891c;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="60%" cy="20%" r="25%">
+      <stop offset="0%" style="stop-color:#4a90d9;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#4a90d9;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- 基础背景 -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  
+  <!-- 光晕层 -->
+  <rect width="1920" height="1080" fill="url(#glow1)"/>
+  <rect width="1920" height="1080" fill="url(#glow2)"/>
+  <rect width="1920" height="1080" fill="url(#glow3)"/>
+  
+  <!-- 几何装饰 - 连接线网络（科技感） -->
+  <g stroke="#2b5f9e" stroke-opacity="0.15" fill="none" stroke-width="1.5">
+    <!-- 左上区域网络 -->
+    <line x1="120" y1="80" x2="280" y2="200"/>
+    <line x1="280" y1="200" x2="180" y2="350"/>
+    <line x1="180" y1="350" x2="380" y2="320"/>
+    <line x1="280" y1="200" x2="420" y2="150"/>
+    <line x1="420" y1="150" x2="380" y2="320"/>
+    <line x1="120" y1="80" x2="60" y2="220"/>
+    <line x1="60" y1="220" x2="180" y2="350"/>
+    
+    <!-- 右上区域网络 -->
+    <line x1="1500" y1="100" x2="1650" y2="180"/>
+    <line x1="1650" y1="180" x2="1780" y2="120"/>
+    <line x1="1650" y1="180" x2="1600" y2="320"/>
+    <line x1="1780" y1="120" x2="1850" y2="260"/>
+    <line x1="1850" y1="260" x2="1600" y2="320"/>
+    <line x1="1500" y1="100" x2="1450" y2="250"/>
+    <line x1="1450" y1="250" x2="1600" y2="320"/>
+    
+    <!-- 左下区域网络 -->
+    <line x1="100" y1="750" x2="250" y2="820"/>
+    <line x1="250" y1="820" x2="200" y2="950"/>
+    <line x1="250" y1="820" x2="400" y2="780"/>
+    <line x1="400" y1="780" x2="350" y2="920"/>
+    <line x1="200" y1="950" x2="350" y2="920"/>
+    
+    <!-- 右下区域网络 -->
+    <line x1="1550" y1="700" x2="1700" y2="780"/>
+    <line x1="1700" y1="780" x2="1820" y2="720"/>
+    <line x1="1700" y1="780" x2="1650" y2="900"/>
+    <line x1="1820" y1="720" x2="1880" y2="860"/>
+    <line x1="1880" y1="860" x2="1650" y2="900"/>
+    
+    <!-- 中间区域的轻微连线 -->
+    <line x1="700" y1="150" x2="850" y2="100"/>
+    <line x1="850" y1="100" x2="950" y2="180"/>
+    <line x1="900" y1="900" x2="1050" y2="850"/>
+    <line x1="1050" y1="850" x2="1100" y2="960"/>
+  </g>
+  
+  <!-- 节点圆点 -->
+  <g fill="#2b5f9e" fill-opacity="0.18">
+    <circle cx="120" cy="80" r="4"/>
+    <circle cx="280" cy="200" r="5"/>
+    <circle cx="180" cy="350" r="3.5"/>
+    <circle cx="420" cy="150" r="3"/>
+    <circle cx="380" cy="320" r="4"/>
+    <circle cx="60" cy="220" r="3"/>
+    
+    <circle cx="1500" cy="100" r="4"/>
+    <circle cx="1650" cy="180" r="5"/>
+    <circle cx="1780" cy="120" r="3.5"/>
+    <circle cx="1600" cy="320" r="4"/>
+    <circle cx="1850" cy="260" r="3"/>
+    <circle cx="1450" cy="250" r="3.5"/>
+    
+    <circle cx="100" cy="750" r="3.5"/>
+    <circle cx="250" cy="820" r="4.5"/>
+    <circle cx="200" cy="950" r="3"/>
+    <circle cx="400" cy="780" r="4"/>
+    <circle cx="350" cy="920" r="3.5"/>
+    
+    <circle cx="1550" cy="700" r="4"/>
+    <circle cx="1700" cy="780" r="5"/>
+    <circle cx="1820" cy="720" r="3.5"/>
+    <circle cx="1650" cy="900" r="4"/>
+    <circle cx="1880" cy="860" r="3"/>
+    
+    <circle cx="700" cy="150" r="3"/>
+    <circle cx="850" cy="100" r="4"/>
+    <circle cx="950" cy="180" r="3.5"/>
+    <circle cx="900" cy="900" r="3"/>
+    <circle cx="1050" cy="850" r="4"/>
+    <circle cx="1100" cy="960" r="3.5"/>
+  </g>
+  
+  <!-- 装饰几何图形 -->
+  <!-- 六边形 左上 -->
+  <polygon points="320,500 350,480 380,500 380,530 350,550 320,530" fill="none" stroke="#2b5f9e" stroke-opacity="0.12" stroke-width="1.5"/>
+  
+  <!-- 六边形 右下 -->
+  <polygon points="1520,580 1555,558 1590,580 1590,615 1555,637 1520,615" fill="none" stroke="#d4891c" stroke-opacity="0.12" stroke-width="1.5"/>
+  
+  <!-- 圆环 -->
+  <circle cx="1750" cy="450" r="30" fill="none" stroke="#2b5f9e" stroke-opacity="0.12" stroke-width="1.5"/>
+  <circle cx="1750" cy="450" r="18" fill="none" stroke="#2b5f9e" stroke-opacity="0.08" stroke-width="1"/>
+  
+  <circle cx="200" cy="600" r="25" fill="none" stroke="#4a90d9" stroke-opacity="0.12" stroke-width="1.5"/>
+  <circle cx="200" cy="600" r="14" fill="none" stroke="#4a90d9" stroke-opacity="0.08" stroke-width="1"/>
+  
+  <!-- 菱形 -->
+  <polygon points="1300,150 1330,180 1300,210 1270,180" fill="none" stroke="#d4891c" stroke-opacity="0.14" stroke-width="1.5"/>
+  
+  <polygon points="500,850 525,875 500,900 475,875" fill="none" stroke="#2b5f9e" stroke-opacity="0.12" stroke-width="1.5"/>
+  
+  <!-- 渐变色块装饰 -->
+  <rect x="50" y="450" width="80" height="80" rx="16" fill="url(#accent1)" transform="rotate(15 90 490)"/>
+  <rect x="1750" y="350" width="60" height="60" rx="12" fill="url(#accent2)" transform="rotate(-20 1780 380)"/>
+  
+  <!-- 虚线圆 -->
+  <circle cx="600" cy="250" r="40" fill="none" stroke="#2b5f9e" stroke-opacity="0.1" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="1400" cy="800" r="35" fill="none" stroke="#4a90d9" stroke-opacity="0.1" stroke-width="1.5" stroke-dasharray="5 3"/>
+  
+  <!-- 十字标记 -->
+  <g stroke="#2b5f9e" stroke-opacity="0.12" stroke-width="1.5">
+    <line x1="750" y1="700" x2="750" y2="720"/>
+    <line x1="740" y1="710" x2="760" y2="710"/>
+    
+    <line x1="1200" y1="300" x2="1200" y2="320"/>
+    <line x1="1190" y1="310" x2="1210" y2="310"/>
+    
+    <line x1="450" y1="120" x2="450" y2="140"/>
+    <line x1="440" y1="130" x2="460" y2="130"/>
+  </g>
+</svg>
